@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav2"
+    app:startDestination="@id/orderNoodlesRes">
+    <fragment
+        android:id="@+id/orderNoodlesRes"
+        android:name="com.example.akfood1.orders.fragmentsRes.OrderNoodlesRes"
+        android:label="fragment_order_noodles_r"
+        tools:layout="@layout/fragment_order_noodles_r" >
+        <action
+            android:id="@+id/action_orderNoodlesRes_to_orderBurgersRes2"
+            app:destination="@id/orderBurgersRes2" />
+    </fragment>
+    <fragment
+        android:id="@+id/orderBurgersRes2"
+        android:name="com.example.akfood1.orders.fragmentsRes.OrderBurgersRes"
+        android:label="fragment_order_burgers_r"
+        tools:layout="@layout/fragment_order_burgers_r" >
+        <action
+            android:id="@+id/action_orderBurgersRes2_to_orderSoupsRes"
+            app:destination="@id/orderSoupsRes" />
+        <action
+            android:id="@+id/action_orderBurgersRes2_to_orderNoodlesRes"
+            app:destination="@id/orderNoodlesRes" />
+    </fragment>
+    <fragment
+        android:id="@+id/orderSoupsRes"
+        android:name="com.example.akfood1.orders.fragmentsRes.OrderSoupsRes"
+        android:label="fragment_order_soups_r"
+        tools:layout="@layout/fragment_order_soups_r" >
+        <action
+            android:id="@+id/action_orderSoupsRes_to_orderBurgersRes2"
+            app:destination="@id/orderBurgersRes2" />
+        <action
+            android:id="@+id/action_orderSoupsRes_to_orderDessertsRes2"
+            app:destination="@id/orderDessertsRes2" />
+    </fragment>
+    <fragment
+        android:id="@+id/orderDessertsRes2"
+        android:name="com.example.akfood1.orders.fragmentsRes.OrderDessertsRes"
+        android:label="fragment_order_desserts_r"
+        tools:layout="@layout/fragment_order_desserts_r" >
+        <action
+            android:id="@+id/action_orderDessertsRes2_to_orderSoupsRes"
+            app:destination="@id/orderSoupsRes" />
+    </fragment>
+    <activity
+        android:id="@+id/myOrder2"
+        android:name="com.example.akfood1.orders.MyOrder"
+        android:label="activity_my_order"
+        tools:layout="@layout/activity_my_order" />
+</navigation>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/homepage"
+        android:title="AKFood" />
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:drawableLeft="@drawable/ic_baseline_person_35"/>
+    <item
+        android:id="@+id/orders"
+        android:orderInCategory="100"
+        android:title="Orders"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/reserv"
+        android:title="Reservation"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/about_us"
+        android:title="About us"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/searchMenu"
+        android:title="Search" />
+    <item
+        android:id="@+id/history"
+        android:title="History" />
+</menu>

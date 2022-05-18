@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9F1E3"
+    tools:context=".topCategories.Cake">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/fastfood1"
+                android:layout_width="wrap_content"
+                android:layout_height="84dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Chocolate lava cake"
+                android:textColor="#8AAC74"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="317dp"
+                app:srcCompat="@drawable/cake" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="It seems as though every restaurant in America offers a version of this amazing cake created by master chef Jean-Georges Vongerichten. But his supremely rich and chocolaty original is in a class by itself. Here, Food and Wine presents his perfect recipe. Molten chocolate cakes became famous for a reason: they're cakey on the outside with an irresistible center of warm dark chocolate flowing through the middle. The first time you try one, it may seem like magic, but this recipe is actually quite easy to make and ready in under an hour."
+                android:textAlignment="center"
+                android:textColor="#070707"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

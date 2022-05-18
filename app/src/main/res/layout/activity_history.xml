@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4EBE8"
+    tools:context=".History">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="#F4EBE8"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="History"
+            android:textAlignment="center"
+            android:textColor="#F6AE97"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="#052D4C"
+            android:text="Booking Info"
+            android:textAlignment="center"
+            android:textColor="#F3EFEF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="166dp"
+                android:layout_height="50dp"
+                android:text="Number of people: "
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text=" "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="166dp"
+                android:layout_height="50dp"
+                android:text="Time:"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="144dp"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text=" "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="166dp"
+                android:layout_height="50dp"
+                android:text="Date: "
+                tools:ignore="SpeakableTextPresentCheck"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="144dp"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text=" "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="166dp"
+                android:layout_height="70dp"
+                android:text="Seating type: "
+                tools:ignore="SpeakableTextPresentCheck"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text=" "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
