@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4EBE8"
+    tools:context=".orders.MyOrder">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/orderOnlineT"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="35dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Order Online"
+            android:textAlignment="center"
+            android:textColor="#F6AE97"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/yourOrder"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Your Order"
+            android:textAlignment="center"
+            android:textColor="#0B0A0A"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/myOrderText"
+            android:layout_width="315dp"
+            android:layout_height="135dp"
+            android:layout_marginStart="50dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#090909"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/myOrderText1"
+            android:layout_width="315dp"
+            android:layout_height="137dp"
+            android:layout_marginStart="50dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#090909"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/myOrderText2"
+            android:layout_width="315dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="50dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#090909"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/myOrderText3"
+            android:layout_width="315dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="50dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#090909"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/placeOrder"
+            android:text="Place Order"
+            android:layout_width="315dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/my_button"
+            android:textColor="#FDFCFC"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
