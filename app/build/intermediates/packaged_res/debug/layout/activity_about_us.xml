@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F4EBE8"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="312dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/food" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="259dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="220dp"
+                    android:background="#D5121111"
+                    android:fontFamily="@font/euphoria_script"
+                    android:text="   AKFood"
+                    android:textColor="#FBFBFB"
+                    android:textSize="60sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="About Us"
+                android:textColor="#F6AE97"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="327dp"
+                android:layout_height="190dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:elegantTextHeight="false"
+                android:fontFamily="sans-serif-smallcaps"
+                android:lineSpacingExtra="3sp"
+                android:text="Opened in 2015, Emmer and Rye is a restaurant designed around the farmer’s haul, featuring a menu that changes daily with a focus on seasonal and local cuisine. "
+                android:textAlignment="center"
+                android:textColor="#0B0B0B"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="324dp"
+                android:layout_height="264dp"
+                android:layout_marginStart="40dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:lineSpacingExtra="3sp"
+                android:text="Heirloom grains are milled fresh for house made pastas, breads, and desserts, whole animal butchery is done on site, and an extensive in house fermentation program captures flavors at their peak and preserves them for the off season."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="323dp"
+                android:layout_height="143dp"
+                android:layout_marginStart="40dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:lineSpacingExtra="3sp"
+                android:text="Emmer and Rye is a carbon neutral restaurant. We work with Zero FoodPrint to help offset our carbon emissions."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

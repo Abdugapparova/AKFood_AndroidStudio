@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F4EBE8"
+    tools:context=".orders.fragmentsRes.OrderBurgersRes">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/orderOnlineT"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="35dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Order in Restaurant"
+                android:textAlignment="center"
+                android:textColor="#F6AE97"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/yourOrder"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Burgers"
+                android:textAlignment="center"
+                android:textColor="#0B0A0A"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="933dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_width="48dp"
+                    android:layout_height="159dp"
+                    android:layout_marginTop="250dp"
+                    android:backgroundTint="#F6AE97"
+                    android:text=" "
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="305dp"
+                        android:layout_height="480dp"
+                        android:orientation="vertical"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="141dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/appleSoup"
+                                android:layout_width="149dp"
+                                android:layout_height="156dp"
+                                app:srcCompat="@drawable/applesoup" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/appleSoupt"
+                                    android:layout_width="153dp"
+                                    android:layout_height="64dp"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="30dp"
+                                    android:fontFamily="sans-serif-smallcaps"
+                                    android:text="Chilled Apple Ginger Soup"
+                                    android:textAlignment="center"
+                                    android:textColor="#0B0A0A"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/textView36s"
+                                    android:layout_width="153dp"
+                                    android:layout_height="38dp"
+                                    android:layout_marginStart="10dp"
+                                    android:fontFamily="sans-serif-smallcaps"
+                                    android:text="3500  TG"
+                                    android:textAlignment="center"
+                                    android:textColor="#0B0A0A"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="178dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/squashSoup"
+                                android:layout_width="149dp"
+                                android:layout_height="156dp"
+                                android:layout_marginTop="10dp"
+                                app:srcCompat="@drawable/squashsoup" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/squashSoupT"
+                                    android:layout_width="153dp"
+                                    android:layout_height="86dp"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="30dp"
+                                    android:fontFamily="sans-serif-smallcaps"
+                                    android:text="Hearty Grains and Butternut Squash Soup"
+                                    android:textAlignment="center"
+                                    android:textColor="#0B0A0A"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/textView32s"
+                                    android:layout_width="153dp"
+                                    android:layout_height="38dp"
+                                    android:layout_marginStart="10dp"
+                                    android:fontFamily="sans-serif-smallcaps"
+                                    android:text="4000 TG"
+                                    android:textAlignment="center"
+                                    android:textColor="#0B0A0A"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/cornSoup"
+                                android:layout_width="149dp"
+                                android:layout_height="156dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/cornsoup" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/cornSoupT"
+                                    android:layout_width="153dp"
+                                    android:layout_height="86dp"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="30dp"
+                                    android:fontFamily="sans-serif-smallcaps"
+                                    android:text="Roasted Jalapeno and Corn Chowder"
+                                    android:textAlignment="center"
+                                    android:textColor="#0B0A0A"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/textView34s"
+                                    android:layout_width="153dp"
+                                    android:layout_height="38dp"
+                                    android:layout_marginStart="10dp"
+                                    android:fontFamily="sans-serif-smallcaps"
+                                    android:text="5500 TG"
+                                    android:textAlignment="center"
+                                    android:textColor="#0B0A0A"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="318dp"
+                        android:layout_height="467dp"
+                        android:orientation="vertical"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="141dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/cBurger2"
+                                android:layout_width="165dp"
+                                android:layout_height="134dp"
+                                app:srcCompat="@drawable/cheeseburger" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/cBurger"
+                                    android:layout_width="127dp"
+                                    android:layout_height="55dp"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="30dp"
+                                    android:fontFamily="sans-serif-smallcaps"
+                                    android:text="Cheese Burger"
+                                    android:textAlignment="center"
+                                    android:textColor="#0B0A0A"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/textView36"
+                                    android:layout_width="127dp"
+                                    android:layout_height="38dp"
+                                    android:layout_marginStart="10dp"
+                                    android:fontFamily="sans-serif-smallcaps"
+                                    android:text="1200  TG"
+                                    android:textAlignment="center"
+                                    android:textColor="#0B0A0A"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="169dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/chickenB2"
+                                android:layout_width="165dp"
+                                android:layout_height="134dp"
+                                android:layout_marginTop="10dp"
+                                app:srcCompat="@drawable/burgerchicken" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/chickenB"
+                                    android:layout_width="127dp"
+                                    android:layout_height="55dp"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="30dp"
+                                    android:fontFamily="sans-serif-smallcaps"
+                                    android:text="Chicken Burger"
+                                    android:textAlignment="center"
+                                    android:textColor="#0B0A0A"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/textView32"
+                                    android:layout_width="131dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:fontFamily="sans-serif-smallcaps"
+                                    android:text="1000 TG"
+                                    android:textAlignment="center"
+                                    android:textColor="#0B0A0A"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/beefB2"
+                                android:layout_width="165dp"
+                                android:layout_height="138dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/burgermeet" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/beefB"
+                                    android:layout_width="127dp"
+                                    android:layout_height="55dp"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="30dp"
+                                    android:fontFamily="sans-serif-smallcaps"
+                                    android:text="Beef Burger"
+                                    android:textAlignment="center"
+                                    android:textColor="#0B0A0A"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/textView34b"
+                                    android:layout_width="127dp"
+                                    android:layout_height="38dp"
+                                    android:layout_marginStart="10dp"
+                                    android:fontFamily="sans-serif-smallcaps"
+                                    android:text="1500 TG"
+                                    android:textAlignment="center"
+                                    android:textColor="#0B0A0A"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="48dp"
+                    android:layout_height="159dp"
+                    android:layout_marginTop="250dp"
+                    android:backgroundTint="#F6AE97"
+                    android:text=" "
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="315dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/my_button"
+                android:text="ORDER"
+                android:textColor="#FDFCFC"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.akfood1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="28"
+        android:targetSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.AKFood1" >
+        <activity
+            android:name="com.example.akfood1.History"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.SuccessReserv"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.orders.OrderSuccess"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.orders.MyOrder"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.MenuPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.SearchResults"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.orders.OrderInRestaurant"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.orders.OrderOnline"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.typeOfFoods.Noodles"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.typeOfFoods.Pizza"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.typeOfFoods.Burgers"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.typeOfFoods.Soups2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.topCategories.Restaurant"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.topCategories.Soups"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.topCategories.Dessert"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.topCategories.FastFood"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.Register"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.Login"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.Profile"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.akfood1.orders.Orders"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.Reservation"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.topCategories.Cake"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.Profile2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.AboutUs"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.YourDetails"
+            android:exported="false" />
+        <activity
+            android:name="com.example.akfood1.MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

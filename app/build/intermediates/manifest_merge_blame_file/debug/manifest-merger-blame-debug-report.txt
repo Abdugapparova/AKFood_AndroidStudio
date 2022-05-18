@@ -1,0 +1,208 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.akfood1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:5:5-100:19
+12        android:allowBackup="true"
+12-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+13-->[com.android.support:support-compat:28.0.0] C:\Users\Acer\.gradle\caches\transforms-3\0c38ac38adefd5f976c98d317e9f922d\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.AKFood1" >
+21-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:11:9-45
+22        <activity
+22-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:12:9-14:40
+23            android:name="com.example.akfood1.History"
+23-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:13:13-36
+24            android:exported="false" />
+24-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:14:13-37
+25        <activity
+25-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:15:9-17:40
+26            android:name="com.example.akfood1.SuccessReserv"
+26-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:16:13-42
+27            android:exported="false" />
+27-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:17:13-37
+28        <activity
+28-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:18:9-20:40
+29            android:name="com.example.akfood1.orders.OrderSuccess"
+29-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:19:13-48
+30            android:exported="false" />
+30-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:20:13-37
+31        <activity
+31-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:21:9-23:40
+32            android:name="com.example.akfood1.orders.MyOrder"
+32-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:22:13-43
+33            android:exported="false" />
+33-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:23:13-37
+34        <activity
+34-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:24:9-26:40
+35            android:name="com.example.akfood1.MenuPage"
+35-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:25:13-37
+36            android:exported="false" />
+36-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:26:13-37
+37        <activity
+37-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:27:9-29:40
+38            android:name="com.example.akfood1.SearchResults"
+38-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:28:13-42
+39            android:exported="false" />
+39-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:29:13-37
+40        <activity
+40-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:30:9-32:40
+41            android:name="com.example.akfood1.orders.OrderInRestaurant"
+41-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:31:13-53
+42            android:exported="false" />
+42-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:32:13-37
+43        <activity
+43-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:33:9-35:40
+44            android:name="com.example.akfood1.orders.OrderOnline"
+44-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:34:13-47
+45            android:exported="false" />
+45-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:35:13-37
+46        <activity
+46-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:36:9-38:40
+47            android:name="com.example.akfood1.typeOfFoods.Noodles"
+47-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:37:13-48
+48            android:exported="false" />
+48-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:38:13-37
+49        <activity
+49-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:39:9-41:40
+50            android:name="com.example.akfood1.typeOfFoods.Pizza"
+50-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:40:13-46
+51            android:exported="false" />
+51-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:41:13-37
+52        <activity
+52-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:42:9-44:40
+53            android:name="com.example.akfood1.typeOfFoods.Burgers"
+53-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:43:13-48
+54            android:exported="false" />
+54-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:44:13-37
+55        <activity
+55-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:45:9-47:40
+56            android:name="com.example.akfood1.typeOfFoods.Soups2"
+56-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:46:13-47
+57            android:exported="false" />
+57-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:47:13-37
+58        <activity
+58-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:48:9-50:40
+59            android:name="com.example.akfood1.topCategories.Restaurant"
+59-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:49:13-53
+60            android:exported="false" />
+60-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:50:13-37
+61        <activity
+61-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:51:9-53:40
+62            android:name="com.example.akfood1.topCategories.Soups"
+62-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:52:13-48
+63            android:exported="false" />
+63-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:53:13-37
+64        <activity
+64-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:54:9-56:40
+65            android:name="com.example.akfood1.topCategories.Dessert"
+65-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:55:13-50
+66            android:exported="false" />
+66-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:56:13-37
+67        <activity
+67-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:57:9-59:40
+68            android:name="com.example.akfood1.topCategories.FastFood"
+68-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:58:13-51
+69            android:exported="false" />
+69-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:59:13-37
+70        <activity
+70-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:60:9-62:40
+71            android:name="com.example.akfood1.Register"
+71-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:61:13-37
+72            android:exported="false" />
+72-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:62:13-37
+73        <activity
+73-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:63:9-65:40
+74            android:name="com.example.akfood1.Login"
+74-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:64:13-34
+75            android:exported="false" />
+75-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:65:13-37
+76        <activity
+76-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:66:9-74:20
+77            android:name="com.example.akfood1.Profile"
+77-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:67:13-36
+78            android:exported="true" >
+78-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:68:13-36
+79            <intent-filter>
+79-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:69:13-73:29
+80                <action android:name="android.intent.action.MAIN" />
+80-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:70:17-69
+80-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:70:25-66
+81
+82                <category android:name="android.intent.category.LAUNCHER" />
+82-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:72:17-77
+82-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:72:27-74
+83            </intent-filter>
+84        </activity>
+85        <activity
+85-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:75:9-77:40
+86            android:name="com.example.akfood1.orders.Orders"
+86-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:76:13-42
+87            android:exported="false" />
+87-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:77:13-37
+88        <activity
+88-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:78:9-80:40
+89            android:name="com.example.akfood1.Reservation"
+89-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:79:13-40
+90            android:exported="false" />
+90-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:80:13-37
+91        <activity
+91-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:81:9-83:40
+92            android:name="com.example.akfood1.topCategories.Cake"
+92-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:82:13-47
+93            android:exported="false" />
+93-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:83:13-37
+94        <activity
+94-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:84:9-86:40
+95            android:name="com.example.akfood1.Profile2"
+95-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:85:13-37
+96            android:exported="false" />
+96-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:86:13-37
+97        <activity
+97-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:87:9-89:40
+98            android:name="com.example.akfood1.AboutUs"
+98-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:88:13-36
+99            android:exported="false" />
+99-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:89:13-37
+100        <activity
+100-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:90:9-92:40
+101            android:name="com.example.akfood1.YourDetails"
+101-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:91:13-40
+102            android:exported="false" />
+102-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:92:13-37
+103        <activity
+103-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:93:9-95:40
+104            android:name="com.example.akfood1.MainActivity"
+104-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:94:13-41
+105            android:exported="false" />
+105-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:95:13-37
+106
+107        <meta-data
+107-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:97:9-99:57
+108            android:name="preloaded_fonts"
+108-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:98:13-43
+109            android:resource="@array/preloaded_fonts" />
+109-->C:\Users\Acer\AndroidStudioProjects\AKFood1\app\src\main\AndroidManifest.xml:99:13-54
+110    </application>
+111
+112</manifest>
