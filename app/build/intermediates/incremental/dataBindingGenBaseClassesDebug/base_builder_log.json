@@ -1,0 +1,211 @@
+{
+  "dependencies": {},
+  "class_names_log": {
+    "mappings": {
+      "activity_about_us": {
+        "qualified_name": "com.example.akfood1.databinding.ActivityAboutUsBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_cake": {
+        "qualified_name": "com.example.akfood1.databinding.ActivityCakeBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_dessert": {
+        "qualified_name": "com.example.akfood1.databinding.ActivityDessertBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_fast_food": {
+        "qualified_name": "com.example.akfood1.databinding.ActivityFastFoodBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_history": {
+        "qualified_name": "com.example.akfood1.databinding.ActivityHistoryBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_login": {
+        "qualified_name": "com.example.akfood1.databinding.ActivityLoginBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_menu_page": {
+        "qualified_name": "com.example.akfood1.databinding.ActivityMenuPageBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_noodles": {
+        "qualified_name": "com.example.akfood1.databinding.ActivityNoodlesBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_order_in_restaurant": {
+        "qualified_name": "com.example.akfood1.databinding.ActivityOrderInRestaurantBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_order_online": {
+        "qualified_name": "com.example.akfood1.databinding.ActivityOrderOnlineBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_order_success": {
+        "qualified_name": "com.example.akfood1.databinding.ActivityOrderSuccessBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_orders2": {
+        "qualified_name": "com.example.akfood1.databinding.ActivityOrders2Binding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_pizza": {
+        "qualified_name": "com.example.akfood1.databinding.ActivityPizzaBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_profile": {
+        "qualified_name": "com.example.akfood1.databinding.ActivityProfileBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_profile2": {
+        "qualified_name": "com.example.akfood1.databinding.ActivityProfile2Binding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_register": {
+        "qualified_name": "com.example.akfood1.databinding.ActivityRegisterBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_reservation": {
+        "qualified_name": "com.example.akfood1.databinding.ActivityReservationBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_restaurant": {
+        "qualified_name": "com.example.akfood1.databinding.ActivityRestaurantBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_search_results": {
+        "qualified_name": "com.example.akfood1.databinding.ActivitySearchResultsBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_soups": {
+        "qualified_name": "com.example.akfood1.databinding.ActivitySoupsBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_soups2": {
+        "qualified_name": "com.example.akfood1.databinding.ActivitySoups2Binding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_success_reserv": {
+        "qualified_name": "com.example.akfood1.databinding.ActivitySuccessReservBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_your_details": {
+        "qualified_name": "com.example.akfood1.databinding.ActivityYourDetailsBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "fragment_order_desserts": {
+        "qualified_name": "com.example.akfood1.databinding.FragmentOrderDessertsBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "fragment_order_desserts_r": {
+        "qualified_name": "com.example.akfood1.databinding.FragmentOrderDessertsRBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "fragment_order_noodles": {
+        "qualified_name": "com.example.akfood1.databinding.FragmentOrderNoodlesBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "fragment_order_noodles_r": {
+        "qualified_name": "com.example.akfood1.databinding.FragmentOrderNoodlesRBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "fragment_order_soups": {
+        "qualified_name": "com.example.akfood1.databinding.FragmentOrderSoupsBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "fragment_order_soups_r": {
+        "qualified_name": "com.example.akfood1.databinding.FragmentOrderSoupsRBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "home_page": {
+        "qualified_name": "com.example.akfood1.databinding.HomePageBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_burgers": {
+        "qualified_name": "com.example.akfood1.databinding.ActivityBurgersBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "fragment_order_burgers_r": {
+        "qualified_name": "com.example.akfood1.databinding.FragmentOrderBurgersRBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "fragment_order_burgers": {
+        "qualified_name": "com.example.akfood1.databinding.FragmentOrderBurgersBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "activity_my_order": {
+        "qualified_name": "com.example.akfood1.databinding.ActivityMyOrderBinding",
+        "module_package": "com.example.akfood1.databinding",
+        "variables": {},
+        "implementations": []
+      }
+    }
+  }
+}
