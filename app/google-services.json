@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "337006721173",
+    "project_id": "restaurant-abdugapparova",
+    "storage_bucket": "restaurant-abdugapparova.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337006721173:android:56a492d621e9552353439c",
+        "android_client_info": {
+          "package_name": "com.example.akfood1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337006721173-fb25nb3abim7jgcj47fc8cpbld5sk3h0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.akfood1",
+            "certificate_hash": "aeebb708dd204d9a3bc70d81a0392665038329aa"
+          }
+        },
+        {
+          "client_id": "337006721173-lsje1fl7ltat0u7hpm8h6i1jj6n7pu04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAE7Gx4Htnm_EweaXL-IhQdiqb0ioxK6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337006721173-lsje1fl7ltat0u7hpm8h6i1jj6n7pu04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
